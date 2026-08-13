@@ -12,8 +12,20 @@ export default function ReelExperience() {
     setActiveId(id);
   }, []);
 
+  const activeReel = reels.find((r) => r.id === activeId) ?? reels[0];
+
   return (
-    <section id="experience" className="relative bg-deep">
+    <section id="experience" className="relative overflow-hidden bg-deep">
+      {/* Animated background theme — shifts color as the active reel changes on scroll */}
+      <motion.div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 -z-10"
+        animate={{
+          background: `radial-gradient(ellipse 80% 60% at 50% 30%, ${activeReel?.theme ?? "#0d1614"}55 0%, #0d1614 70%)`,
+        }}
+        transition={{ duration: 1, ease: "easeInOut" }}
+      />
+
       {/* Section intro (desktop) */}
       <div className="mx-auto hidden max-w-7xl px-8 pt-24 pb-8 md:block">
         <motion.div

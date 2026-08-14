@@ -110,11 +110,11 @@ export default function ScrollSequence() {
   return (
     <section
       ref={containerRef}
-      className="relative h-[300vh] bg-deep"
+      className="relative h-[220vh] bg-deep"
       id="cinematic"
     >
       {/* Sticky viewport */}
-      <div className="sticky top-0 h-[100svh] w-full overflow-hidden">
+      <div className="sticky top-0 h-screen w-full overflow-hidden">
         <canvas
           ref={canvasRef}
           className="absolute inset-0 h-full w-full object-cover"

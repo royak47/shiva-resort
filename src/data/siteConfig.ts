@@ -5,12 +5,12 @@ export const siteConfig = {
   description:
     "Shiva Resort & Restaurant in Jaspur, Uttarakhand — dine, relax and celebrate amidst nature. A premium escape for families, couples and celebrations.",
   location: {
-    line1: "Jaspur - Kasampur Rd",
-    line2: "Jaspur Patti Uttam, Uttarakhand",
-    full: "Jaspur - Kasampur Rd, Jaspur Patti Uttam, Uttarakhand",
-    mapQuery: "Shiva Resort Jaspur Patti Uttam Uttarakhand",
-    // Replace with exact Google Maps embed URL or coordinates when available
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Jaspur+Patti+Uttam+Uttarakhand",
+    line1: "Jaspur - Sharif Nagar Rd",
+    line2: "Jaspur Patti Uttam, Uttarakhand 244712",
+    full: "7RH5+3JX Shiva Resort, Jaspur - Sharif Nagar Rd, Jaspur Patti Uttam, Uttarakhand 244712",
+    plusCode: "7RH5+3JX",
+    mapQuery: "7RH5+3JX Shiva Resort, Jaspur - Sharif Nagar Rd, Jaspur Patti Uttam, Uttarakhand 244712",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=7RH5%2B3JX+Shiva+Resort+Jaspur+Patti+Uttam+Uttarakhand",
   },
   contact: {
     // Add real numbers only when verified from the owner / Instagram bio

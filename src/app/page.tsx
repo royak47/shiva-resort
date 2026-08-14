@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import ScrollSequence from "@/components/ScrollSequence";
 import ReelExperience from "@/components/ReelExperience";
 import About from "@/components/About";
 import Rooms from "@/components/Rooms";
@@ -16,6 +17,7 @@ export default function Home() {
     <main className="relative min-h-screen overflow-x-hidden">
       <Navbar />
       <Hero />
+      <ScrollSequence />
       <ReelExperience />
       <About />
       <Rooms />

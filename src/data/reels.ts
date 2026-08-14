@@ -4,9 +4,6 @@
  * and corresponding poster images in /public/images/
  *
  * To add a new reel: append an object below. No component changes needed.
- *
- * `theme` drives the animated background glow behind the reels feed —
- * it shifts as each reel becomes active while scrolling.
  */
 
 export type Reel = {
@@ -18,7 +15,6 @@ export type Reel = {
   ctaLabel?: string;
   ctaHref?: string;
   instagramUrl?: string; // optional source reference
-  theme: string; // accent color for scroll-linked background
 };
 
 export const reels: Reel[] = [
@@ -30,7 +26,6 @@ export const reels: Reel[] = [
     description: "Wake up to greenery and calm at Shiva Resort.",
     ctaLabel: "Explore the Resort",
     ctaHref: "#about",
-    theme: "#1a2e28",
   },
   {
     id: 2,
@@ -40,7 +35,6 @@ export const reels: Reel[] = [
     description: "Moments made for families, couples and gatherings.",
     ctaLabel: "View Dining",
     ctaHref: "#dining",
-    theme: "#c4a574",
   },
   {
     id: 3,
@@ -50,7 +44,6 @@ export const reels: Reel[] = [
     description: "Soft lights, open air and memorable evenings.",
     ctaLabel: "Book Your Stay",
     ctaHref: "#booking",
-    theme: "#0d1614",
   },
   {
     id: 4,
@@ -60,7 +53,15 @@ export const reels: Reel[] = [
     description: "From quiet mornings to celebratory nights.",
     ctaLabel: "See Rooms",
     ctaHref: "#rooms",
-    theme: "#3a2e1a",
+  },
+  {
+    id: 5,
+    video: "/videos/reel-05.mp4",
+    poster: "/images/reel-05.jpg",
+    title: "Nature at Your Doorstep",
+    description: "Jaspur’s peaceful surroundings, right outside.",
+    ctaLabel: "Get Directions",
+    ctaHref: "#location",
   },
 ];
 

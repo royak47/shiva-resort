@@ -13,22 +13,7 @@ export default function ReelExperience() {
   }, []);
 
   return (
-    <section id="experience" className="relative overflow-hidden bg-deep">
-      {/* Animated background — the active reel's own scene, blurred, crossfades on scroll */}
-      <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        {reels.map((reel) => (
-          <motion.div
-            key={reel.id}
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(${reel.poster})`, filter: "blur(40px) saturate(1.2) brightness(0.55)", transform: "scale(1.15)" }}
-            animate={{ opacity: activeId === reel.id ? 1 : 0 }}
-            transition={{ duration: 1, ease: "easeInOut" }}
-          />
-        ))}
-        <div className="absolute inset-0 bg-deep/55" />
-        <div className="absolute inset-0 bg-gradient-to-b from-deep/70 via-transparent to-deep/80" />
-      </div>
-
+    <section id="experience" className="relative bg-deep">
       {/* Section intro (desktop) */}
       <div className="mx-auto hidden max-w-7xl px-8 pt-24 pb-8 md:block">
         <motion.div

@@ -31,9 +31,16 @@ export default function Location() {
         </h2>
         <div className="mt-6 flex items-start gap-3 text-cream/80">
           <MapPin className="mt-0.5 shrink-0 text-gold" size={18} />
-          <p className="text-sm leading-relaxed">
-            {siteConfig.location.full}
-          </p>
+          <div className="text-sm leading-relaxed">
+            <p className="font-medium text-cream">
+              {siteConfig.location.plusCode} Shiva Resort
+            </p>
+            <p className="mt-1 text-cream/70">
+              {siteConfig.location.line1}
+              <br />
+              {siteConfig.location.line2}
+            </p>
+          </div>
         </div>
         <a
           href={siteConfig.location.mapsUrl}

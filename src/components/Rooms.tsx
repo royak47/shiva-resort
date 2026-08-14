@@ -34,7 +34,7 @@ export default function Rooms() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group overflow-hidden rounded-2xl bg-forest/40"
+              className="group overflow-hidden rounded-2xl glass card-lift"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <div

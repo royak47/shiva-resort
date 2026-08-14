@@ -21,7 +21,7 @@ export default function Location() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
-        className="relative z-10 mx-5 max-w-md rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl md:p-10"
+        className="relative z-10 mx-5 max-w-md rounded-2xl glass-strong p-8 md:p-10"
       >
         <p className="mb-2 text-[11px] tracking-[0.3em] uppercase text-gold">
           Find Us

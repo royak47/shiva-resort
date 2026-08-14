@@ -58,10 +58,19 @@ export const reels: Reel[] = [
     id: 5,
     video: "/videos/reel-05.mp4",
     poster: "/images/reel-05.jpg",
-    title: "Nature at Your Doorstep",
-    description: "Jaspur’s peaceful surroundings, right outside.",
+    title: "Grand Celebrations, Perfectly Set",
+    description: "Sun-lit floral arches and open lawns made for big moments.",
     ctaLabel: "Get Directions",
     ctaHref: "#location",
+  },
+  {
+    id: 6,
+    video: "/videos/reel-06.mp4",
+    poster: "/images/reel-06.jpg",
+    title: "Fresh, Made With Care",
+    description: "A peek into the Shiva Restaurant kitchen.",
+    ctaLabel: "View Dining",
+    ctaHref: "#dining",
   },
 ];
 
